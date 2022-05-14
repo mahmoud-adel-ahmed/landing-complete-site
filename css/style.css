@@ -24,9 +24,9 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 4rem;
+  overflow-x: hidden;
 }
 html::-webkit-scrollbar {
   width: 1rem;
@@ -477,7 +477,7 @@ header #menu {
     text-align: center;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   html {
     font-size: 50%;
   }
