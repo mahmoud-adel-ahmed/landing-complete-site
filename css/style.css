@@ -77,7 +77,7 @@ header {
   position: sticky;
   top: 0;
   left: 0;
-  width: 100vw;
+  right: 0;
   z-index: 1000;
 }
 header > a {
@@ -104,6 +104,7 @@ header #menu {
 .home {
   min-height: 100vh;
   text-align: center;
+  overflow: hidden;
 }
 .home .content {
   padding-top: 5rem;
@@ -431,8 +432,7 @@ header #menu {
   header .navbar a {
     display: block;
     text-align: center;
-    margin: 1.5rem;
-    margin-left: 0;
+    margin: 1.5rem 0;
     padding: 1rem;
     background: linear-gradient(90deg, #ed176f, #f7817f);
     border-radius: 0.5rem;
@@ -446,7 +446,6 @@ header #menu {
   }
   header #menu {
     display: block;
-    margin-right: 2rem;
   }
 
   .fa-times {
